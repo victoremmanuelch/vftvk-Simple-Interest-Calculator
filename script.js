@@ -2,7 +2,7 @@ function compute(){
 
     var principal = document.getElementById("principal").value;
     if (principal<=0){
-      document.getElementById("result").innerHTML = "Please enter a valid amount.";
+      document.getElementById("result").innerHTML = "Please enter a positive number.";
       return;
     }
     var rate = document.getElementById("rate").value;
